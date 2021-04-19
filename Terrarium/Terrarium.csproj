@@ -63,6 +63,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Models\Classes\AntHill.cs" />
+    <Compile Include="Models\Classes\Food.cs" />
+    <Compile Include="Models\Classes\Queen.cs" />
+    <Compile Include="Models\Functions.cs" />
     <Compile Include="Models\Obj.cs" />
     <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -70,7 +74,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Objects\Ant.cs" />
+    <Compile Include="Models\Classes\Ant.cs" />
     <Compile Include="Models\Terrarium.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

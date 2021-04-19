@@ -5,8 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Terrarium"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="600" Width="1000" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Canvas x:Name="AreaCanvas" Margin="0,0,126,0" Background="Black" MouseLeftButtonDown="AreaCanvas_MouseLeftButtonDown" MouseRightButtonDown="AreaCanvas_MouseRightButtonDown"/>
+
 </Window>
